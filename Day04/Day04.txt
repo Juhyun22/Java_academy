@@ -1,0 +1,37 @@
+[ if문과 논리 연산자 ]
+유효성 체크(validation check) - 원하는 조건에 맞는지..
+문제 풀이 사이트.. 백준, 프로그래머스 등에서 문제 풀이 leetcode
+문제해결능력 / 문제풀이
+자료구조, 알고리즘
+java 1, 2 & 프론트엔드
+플랫폼 IOS, ANDRIOD, WEB 서버
+
+[ if-else문과 if-else if-else문 ]
+if{
+} else {} 형태
+else if(조건)
+else는 다 아닐때(생략 가능)
+어떻게하면 더 좋은 코드를 만들까...
+먼저나온 조건의 영향을 받음 - 참이 아닌 애들만 밑으로 밑으로
+if는 다 다른 / if else는 한묶음(범위 설정 시 영향 받음)
+
+[ switch문 ]
+조건이 '같다'일 때, if문을 대체해서 사용 가능한 문법
+switch-case-default는 한쌍 break(빠져나오기)도!!
+break 중요!!!!!
+실전에서 꼭 필요함!
+case 옆에 값 하나밖에 못넣음
+(double)average / 2; 형태가 보기 좋음
+int max를 설정하여 제일 큰 수 문제풀이.. 그냥 if 두개 쓰면 됐었어ㅠㅜㅠ
+int max = a;
+if(b>max){
+max = b;
+}
+if(c>max){
+max = c;
+}
+sout(max);
+또는과 그리고 잘보기.. 문제 꼼꼼히 읽기!!!
+예외적인거 먼저 앞에 두고 최대한 중첩 쓰지 않고 해보기.ㅠㅜㅠ
+4번 논리연산자로 else, if else
+
