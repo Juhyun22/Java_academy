@@ -4,8 +4,8 @@ public class Quiz01 {
 
 	public static void main(String[] args) {
 		int age = 25;
-		System.out.print("ÀÌ¸§: ¹ÚÁÖÇö  ");
-		System.out.println("³ªÀÌ:" + age);
+		System.out.print("Ã€ÃŒÂ¸Â§: Â¹ÃšÃÃ–Ã‡Ã¶  ");
+		System.out.println("Â³ÂªÃ€ÃŒ:" + age);
 		
 		int num1 = 3;
 		int num2 = 5;
