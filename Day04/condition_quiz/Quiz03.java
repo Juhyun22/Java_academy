@@ -7,34 +7,34 @@ public class Quiz03 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-//		// 1. Æò±Õ ÇÕ°İ ±¸ÇÏ±â
-//		System.out.print("µÎ Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+//		// 1. í‰ê·  í•©ê²© êµ¬í•˜ê¸°
+//		System.out.print("ë‘ ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 //		int score1 = scan.nextInt();
 //		int score2 = scan.nextInt();
 //		
 //		double avg = (score1 + score2) / 2.0;
 //		if (avg >= 70) {
-//			System.out.println("ÇÕ°İ");
+//			System.out.println("í•©ê²©");
 //		} else {
-//			System.out.println("ºÒÇÕ°İ");
+//			System.out.println("ë¶ˆí•©ê²©");
 //		}
 		
 		
-//		// 2. Å« °ª ±¸ÇÏ±â
-//		System.out.print("¼¼ °³ÀÇ ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+//		// 2. í° ê°’ êµ¬í•˜ê¸°
+//		System.out.print("ì„¸ ê°œì˜ ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 //		int num1 = scan.nextInt();
 //		int num2 = scan.nextInt();
 //		int num3 = scan.nextInt();
 //		
-//		if (num1 > num2) { // num1ÀÌ num2º¸´Ù ´õ Å­
-//			if (num1 > num3) { // (num2 Á¦¿Ü) num1ÀÌ num3º¸´Ù Å­ 
+//		if (num1 > num2) { // num1ì´ num2ë³´ë‹¤ ë” í¼
+//			if (num1 > num3) { // (num2 ì œì™¸) num1ì´ num3ë³´ë‹¤ í¼ 
 //				System.out.println(num1);
 //			}
-//			else {			   // (num2 Á¦¿Ü) num3ÀÌ num1º¸´Ù Å­
+//			else {			   // (num2 ì œì™¸) num3ì´ num1ë³´ë‹¤ í¼
 //				System.out.println(num3);
 //			}
 //		} else {
-//			if (num2 > num3) { // (num1 Á¦¿Ü) num2°¡ num3º¸´Ù Å­
+//			if (num2 > num3) { // (num1 ì œì™¸) num2ê°€ num3ë³´ë‹¤ í¼
 //				System.out.println(num2);
 //			}
 //		}
@@ -52,40 +52,40 @@ public class Quiz03 {
 //		
 		
 		
-//		// 3. °ú¶ô Æ÷ÇÔ ÇÕ°İ ¿©ºÎ
-//		System.out.print("Á¡¼ö1 : ");
+//		// 3. ê³¼ë½ í¬í•¨ í•©ê²© ì—¬ë¶€
+//		System.out.print("ì ìˆ˜1 : ");
 //		int score1 = scan.nextInt(); 
-//		System.out.print("Á¡¼ö2 : ");
+//		System.out.print("ì ìˆ˜2 : ");
 //		int score2 = scan.nextInt();
 //		
 //		double avg = (score1 + score2) / 2.0;
 //		
 //		if(score1 <= 50 || score2 <= 50) {
 //			if (avg >= 60) {
-//				System.out.println("ÇÕ°İ");
+//				System.out.println("í•©ê²©");
 //			} else {
-//				System.out.println("ºÒÇÕ°İ");
+//				System.out.println("ë¶ˆí•©ê²©");
 //			}
 //		} else {
-//			System.out.println("°ú¶ô");
+//			System.out.println("ê³¼ë½");
 //		}
 //		
 //		
 		
-		// 4. À±³â ±¸ÇÏ±â
-		System.out.print("¿¬µµ : ");
+		// 4. ìœ¤ë…„ êµ¬í•˜ê¸°
+		System.out.print("ì—°ë„ : ");
 		int year = scan.nextInt();
 		
 		if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
-			System.out.println("À±³â");
+			System.out.println("ìœ¤ë…„");
 		} else {
-			System.out.println("Æò³â");
+			System.out.println("í‰ë…„");
 		}
 		
 		
 		
-//		// 5. À·³îÀÌ
-//		System.out.print("À· »óÅÂ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+//		// 5. ìœ·ë†€ì´
+//		System.out.print("ìœ· ìƒíƒœë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 //		int num1 = scan.nextInt();
 //		int num2 = scan.nextInt();
 //		int num3 = scan.nextInt();
@@ -95,19 +95,19 @@ public class Quiz03 {
 //		
 //		switch (sum) {
 //		case 1:
-//			System.out.println("µµ");
+//			System.out.println("ë„");
 //			break;
 //		case 2:
-//			System.out.println("°³");
+//			System.out.println("ê°œ");
 //			break;
 //		case 3:
-//			System.out.println("°É");
+//			System.out.println("ê±¸");
 //			break;
 //		case 4:
-//			System.out.println("À·");
+//			System.out.println("ìœ·");
 //			break;
 //		default:
-//			System.out.println("µµ");
+//			System.out.println("ë„");
 //		}
 //		
 		scan.close();
