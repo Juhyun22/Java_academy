@@ -7,4 +7,4 @@ src는 패키지(package) = 폴더
 variable_ex / variable_quiz
 ()는 함수이며 영어로 funtion이다.
 실수는 무조건 뒤에 f를 붙혀줘야 한당
-![image](https://user-images.githubusercontent.com/45312398/141321310-94878b29-c54d-4a20-a679-f64ef406ca42.png)
+
