@@ -5,22 +5,22 @@ import java.util.Scanner;
 public class Quiz01 {
 
 	public static void main(String[] args) {
-		// 1. ¸ò°ú ³ª¸ÓÁö
+		// 1. ëª«ê³¼ ë‚˜ë¨¸ì§€
 		Scanner scan = new Scanner(System.in);
 		
-//		System.out.print("ÀÔ·Â1 : ");
+//		System.out.print("ìž…ë ¥1 : ");
 //		int number1 = scan.nextInt();
 //		
-//		System.out.print("ÀÔ·Â2 : ");
+//		System.out.print("ìž…ë ¥2 : ");
 //		int number2 = scan.nextInt();
 //		
 //		int quotient = number1 / number2;
 //		int remainder = number1 % number2;
 //		
-//		System.out.println("¸ò:" + quotient + ", ³ª¸ÓÁö:" + remainder);
+//		System.out.println("ëª«:" + quotient + ", ë‚˜ë¨¸ì§€:" + remainder);
 		
 		
-		// 2. ±³Ã¼ (swap ¾Ë°í¸®Áò)
+		// 2. êµì²´ (swap ì•Œê³ ë¦¬ì¦˜)
 //		System.out.print("x : ");
 //		int x = scan.nextInt();
 //		
@@ -31,64 +31,64 @@ public class Quiz01 {
 //		x = y;
 //		y = temp;
 //		
-//		System.out.println("x´Â " + x + "ÀÌ°í, y´Â " + y + " ÀÔ´Ï´Ù.");
+//		System.out.println("xëŠ” " + x + "ì´ê³ , yëŠ” " + y + " ìž…ë‹ˆë‹¤.");
 //		
 		
 		
-		// 3. ÃÊ º¯È¯ (1¹ø ¹®Á¦ Á¶±Ý ¹Ù²Ù¸é ´ï)
-//		System.out.print("ÃÊ: ");
+		// 3. ì´ˆ ë³€í™˜ (1ë²ˆ ë¬¸ì œ ì¡°ê¸ˆ ë°”ê¾¸ë©´ ëŒ)
+//		System.out.print("ì´ˆ: ");
 //		int seconds = scan.nextInt();
 //		
-//		// ºÐ, ÃÊ
+//		// ë¶„, ì´ˆ
 //		int min = seconds / 60;
 //		int sec = seconds % 60;
 //		
-//		System.out.println(min + "ºÐ " + sec + "ÃÊ");
+//		System.out.println(min + "ë¶„ " + sec + "ì´ˆ");
 		
 		
-		// 4. ÀÚ¸®¼ö ÂÉ°³±â
-//		System.out.print("ÀÔ·Â : ");
+		// 4. ìžë¦¬ìˆ˜ ìª¼ê°œê¸°
+//		System.out.print("ìž…ë ¥ : ");
 //		int number = scan.nextInt(); // 1234
 //		
-//		// 1234 / 1000 => 1.234  ¸ò:1  ³ª¸ÓÁö:234
-//		// 234 / 100   => 2.34    ¸ò:2  ³ª¸ÓÁö:34
-//		// 34 / 10     => 3.4      ¸ò:3  ³ª¸ÓÁö:4
+//		// 1234 / 1000 => 1.234  ëª«:1  ë‚˜ë¨¸ì§€:234
+//		// 234 / 100   => 2.34    ëª«:2  ë‚˜ë¨¸ì§€:34
+//		// 34 / 10     => 3.4      ëª«:3  ë‚˜ë¨¸ì§€:4
 //		
 //		int q = number / 1000; // q = 1
 //		int r = number % 1000; // r = 234
-//		System.out.println(q); // Ãâ·Â: 1
+//		System.out.println(q); // ì¶œë ¥: 1
 //		
 //		q = r / 100; // q = 2
 //		r = r % 100; // r = 34
-//		System.out.println(q); // Ãâ·Â: 2
+//		System.out.println(q); // ì¶œë ¥: 2
 //		
 //		q = r / 10; // q = 3
 //		r = r % 10; // r = 4
-//		System.out.println(q); // Ãâ·Â: 3
+//		System.out.println(q); // ì¶œë ¥: 3
 //		System.out.println(r);
 
 		
-		// 5. ÀÚ¸®¼ö ÂÉ°³°í ÇÕ ±¸ÇÏ±â
-		System.out.print("ÀÔ·Â : ");
+		// 5. ìžë¦¬ìˆ˜ ìª¼ê°œê³  í•© êµ¬í•˜ê¸°
+		System.out.print("ìž…ë ¥ : ");
 		int number = scan.nextInt(); // 1234
 		
-		// 1234 / 1000 => 1.234  ¸ò:1  ³ª¸ÓÁö:234
-		// 234 / 100   => 2.34    ¸ò:2  ³ª¸ÓÁö:34
-		// 34 / 10     => 3.4      ¸ò:3  ³ª¸ÓÁö:4
+		// 1234 / 1000 => 1.234  ëª«:1  ë‚˜ë¨¸ì§€:234
+		// 234 / 100   => 2.34    ëª«:2  ë‚˜ë¨¸ì§€:34
+		// 34 / 10     => 3.4      ëª«:3  ë‚˜ë¨¸ì§€:4
 		
 		int q = number / 1000; // 1
 		int r = number % 1000; // 234
-		int sum = q; // ÇÕ°è: 1
+		int sum = q; // í•©ê³„: 1
 		
 		q = r / 100; // 2
 		r = r % 100; // 34
-		sum = sum + q; // ÇÕ°è: 1 + 2 = 3
+		sum = sum + q; // í•©ê³„: 1 + 2 = 3
 		
 		q = r / 10; // 3
 		r = r % 10; // 4
-		sum = sum + q + r; // ÇÕ°è: 3 + 3 + 4 = 10
+		sum = sum + q + r; // í•©ê³„: 3 + 3 + 4 = 10
 		
-		System.out.println("ÇÕ°è´Â " + sum + "ÀÔ´Ï´Ù.");
+		System.out.println("í•©ê³„ëŠ” " + sum + "ìž…ë‹ˆë‹¤.");
 		
 		scan.close();
 	}
