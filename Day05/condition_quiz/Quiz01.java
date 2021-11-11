@@ -7,50 +7,50 @@ public class Quiz01 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("¿¬µµ: ");
+		System.out.print("ì—°ë„: ");
 		int year = scan.nextInt();
 		
-		// 4·Î ³ª´©¾îÁö¸é À±³â
+		// 4ë¡œ ë‚˜ëˆ„ì–´ì§€ë©´ ìœ¤ë…„
 		
-		// 4-1. ºñÈ¿À²ÀûÀÎ ¹æ¹ı
+		// 4-1. ë¹„íš¨ìœ¨ì ì¸ ë°©ë²•
 		if(year % 4 == 0) {
 			if(year % 100 == 0) {
 				if(year % 400 == 0) {
-					System.out.println("À±³â");
+					System.out.println("ìœ¤ë…„");
 				} else {
-				System.out.println("Æò³â");
+				System.out.println("í‰ë…„");
 				}
 			} else {
-			System.out.println("À±³â");
+			System.out.println("ìœ¤ë…„");
 			}
 		} else {
-			System.out.println("Æò³â");
+			System.out.println("í‰ë…„");
 		}
 		
 		// 4-2. if -else if- else
 		if (year % 400 == 0) {
-			System.out.println("À±³â");
+			System.out.println("ìœ¤ë…„");
 		} else if (year % 100 == 0) {
-			System.out.println("Æò³â");
+			System.out.println("í‰ë…„");
 		} else if (year % 4 == 0) {
-			System.out.println("À±³â");
+			System.out.println("ìœ¤ë…„");
 		} else {
-			System.out.println("Æò³â");
+			System.out.println("í‰ë…„");
 		}
 		
-		// 4-3. ³í¸® ¿¬»êÀÚ
-		// 4·Î ³ª´©¾î ¶³¾îÁö°í ±×¸®°í 100À¸·Î ³ª´©¾î ¶³¾îÁöÁö ¾Ê´Â ¿¬µµ´Â À±³âÀÌ´Ù.
-		// ¶Ç´Â 
-		// 400À¸·Î ³ª´©¾î ¶³¾îÁö´Â ¿¬µµ´Â ¹«Á¶°Ç À±³âÀÌ´Ù.
+		// 4-3. ë…¼ë¦¬ ì—°ì‚°ì
+		// 4ë¡œ ë‚˜ëˆ„ì–´ ë–¨ì–´ì§€ê³  ê·¸ë¦¬ê³  100ìœ¼ë¡œ ë‚˜ëˆ„ì–´ ë–¨ì–´ì§€ì§€ ì•ŠëŠ” ì—°ë„ëŠ” ìœ¤ë…„ì´ë‹¤.
+		// ë˜ëŠ” 
+		// 400ìœ¼ë¡œ ë‚˜ëˆ„ì–´ ë–¨ì–´ì§€ëŠ” ì—°ë„ëŠ” ë¬´ì¡°ê±´ ìœ¤ë…„ì´ë‹¤.
 		if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
-			System.out.println("À±³â");
+			System.out.println("ìœ¤ë…„");
 		} else {
-			System.out.println("Æò³â");
+			System.out.println("í‰ë…„");
 		}
 		
 		
-		// 5. À·³îÀÌ 
-		System.out.print("À· »óÅÂ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		// 5. ìœ·ë†€ì´ 
+		System.out.print("ìœ· ìƒíƒœë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		int num1 = scan.nextInt();
 		int num2 = scan.nextInt();
 		int num3 = scan.nextInt();
@@ -60,19 +60,19 @@ public class Quiz01 {
 		
 		switch (sum) {
 		case 1: 
-			System.out.println("µµ");
+			System.out.println("ë„");
 			break;
 		case 2: 
-			System.out.println("°³");
+			System.out.println("ê°œ");
 			break;
 		case 3: 
-			System.out.println("°É");
+			System.out.println("ê±¸");
 			break;
 		case 4: 
-			System.out.println("À·");
+			System.out.println("ìœ·");
 			break;
 		default: 
-			System.out.println("¸ğ");
+			System.out.println("ëª¨");
 		}
 		
 		scan.close();
