@@ -5,20 +5,20 @@ import java.util.Scanner;
 public class Quiz01 {
 
 	public static void main(String[] args) {
-		// ¹İº¹¹® - for¹®
-		// 4. 1 ~ 100 »çÀÌ¿¡ 7ÀÇ ¹è¼ö °¹¼ö¸¦ ±¸ÇÏ¼¼¿ä.
+		// ë°˜ë³µë¬¸ - forë¬¸
+		// 4. 1 ~ 100 ì‚¬ì´ì— 7ì˜ ë°°ìˆ˜ ê°¯ìˆ˜ë¥¼ êµ¬í•˜ì„¸ìš”.
 		int count = 0;
-		for (int i = 7; i <= 100; i += 7) { // ÄÚµå ÁÙÀÌ±â Áß¿ä!
+		for (int i = 7; i <= 100; i += 7) { // ì½”ë“œ ì¤„ì´ê¸° ì¤‘ìš”!
 			count++;
 		}
 		
-		System.out.println("7ÀÇ ¹è¼öÀÇ °³¼ö: " + count);
+		System.out.println("7ì˜ ë°°ìˆ˜ì˜ ê°œìˆ˜: " + count);
 		
 		
 		
-		// 5. ±¸±¸´Ü
+		// 5. êµ¬êµ¬ë‹¨
 		Scanner scan = new Scanner(System.in);
-		System.out.print("º¯¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: " );
+		System.out.print("ë³€ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”: " );
 		int number = scan.nextInt();
 		
 		for (int i = 1; i <= 9; i++) {
