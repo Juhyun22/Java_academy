@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class Quiz02 {
 
 	public static void main(String[] args) {
-//		1. ¹Ýº¹ Ãâ·Â
+//		1. ë°˜ë³µ ì¶œë ¥
 		for (int i = 35; i <= 40 ; i++) {
 			System.out.print(i + " ");
 		}
-		System.out.println(); // ÁÙ¹Ù²Þ
+		System.out.println(); // ì¤„ë°”ê¿ˆ
 		
 		
 		
-//		2. Ä«¿îÆ® ´Ù¿î Ãâ·Â
+//		2. ì¹´ìš´íŠ¸ ë‹¤ìš´ ì¶œë ¥
 		for(int j = 5; j >= -5; j--) {
 			System.out.print(j + " ");
 		}
@@ -21,7 +21,7 @@ public class Quiz02 {
 		
 		
 		
-//		3. Æ¯Á¤ Á¶°Ç ±¸ÇÏ±â
+//		3. íŠ¹ì • ì¡°ê±´ êµ¬í•˜ê¸°
 		// 3-1.
 		for (int k = 1; k <= 50; k++) { // 1 ~ 50 
 			if (k % 3 == 0) {
@@ -37,9 +37,9 @@ public class Quiz02 {
 		}
 		System.out.println();
 		
-		// º¹Àâµµ (BigO) ³·Àº ÄÚµå ÀÛ¼ºÇØ¶ó¤Ð¤Ð¤Ì¤Ð¤Ð
+		// ë³µìž¡ë„ (BigO) ë‚®ì€ ì½”ë“œ ìž‘ì„±í•´ë¼ã… ã… ã…œã… ã… 
 		
-//		4. °¹¼ö ¼¼±â
+//		4. ê°¯ìˆ˜ ì„¸ê¸°
 		int count = 0;
 		
 		for(int l = 1; l <= 100; l++) {
@@ -51,9 +51,9 @@ public class Quiz02 {
 		
 		
 		
-//		5. ±¸±¸´Ü
+//		5. êµ¬êµ¬ë‹¨
 		Scanner scan = new Scanner(System.in);
-		System.out.print("´Ü¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ë‹¨ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");
 		int mul = scan.nextInt();
 
 		for (int m = 1; m < 10; m++) {
