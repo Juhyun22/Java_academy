@@ -3,30 +3,30 @@ package variable_ex;
 public class Ex01 {
 
 	public static void main(String[] args) {
-		// Á¤¼öÇü º¯¼ö (Integer)
-		int number = 10; // º¯¼ö¿¡ °ªÀ» ³Ö´Â °Í: ÃÊ±âÈ­, ´ëÀÔ, assign 
+		// ì •ìˆ˜í˜• ë³€ìˆ˜ (Integer)
+		int number = 10; // ë³€ìˆ˜ì— ê°’ì„ ë„£ëŠ” ê²ƒ: ì´ˆê¸°í™”, ëŒ€ì…, assign 
 		System.out.println(number);
 		
-		number = 5; // º¯¼öÀÌ¹Ç·Î °ªÀ» º¯°æÇÒ ¼ö ÀÖ´Ù. Àç»ç¿ëÇÒ ¶§´Â ÀÚ·áÇü(data type)À» ¾²Áö ¾Ê´Â´Ù.
+		number = 5; // ë³€ìˆ˜ì´ë¯€ë¡œ ê°’ì„ ë³€ê²½í•  ìˆ˜ ìˆë‹¤. ì¬ì‚¬ìš©í•  ë•ŒëŠ” ìë£Œí˜•(data type)ì„ ì“°ì§€ ì•ŠëŠ”ë‹¤.
 		System.out.println(number);
 		
 		int number2 = 100;
 		int sum = number + number2;
 		System.out.println(sum);
 		
-		// ½Ç¼ö º¯¼ö (float) - ±ÇÀå¾ÈÇÔ
+		// ì‹¤ìˆ˜ ë³€ìˆ˜ (float) - ê¶Œì¥ì•ˆí•¨
 		float f = 1.5f;
 		System.out.println(f);
 		
-		// ½Ç¼ö º¯¼ö (double)
+		// ì‹¤ìˆ˜ ë³€ìˆ˜ (double)
 		double d = 3.8;
 		System.out.println(d);
 		
-		// ¹®ÀÚ º¯¼ö (character): ¹®ÀÚ ÇÑ°³. ÀÛ¿î µû¿ÈÇ¥·Î °¨½Ñ´Ù.
+		// ë¬¸ì ë³€ìˆ˜ (character): ë¬¸ì í•œê°œ. ì‘ìš´ ë”°ì˜´í‘œë¡œ ê°ì‹¼ë‹¤.
 		char c = 'z';
 		System.out.println(c);
 		
-		// boolean º¯¼ö : Âü(true) ¶Ç´Â °ÅÁş(false)
+		// boolean ë³€ìˆ˜ : ì°¸(true) ë˜ëŠ” ê±°ì§“(false)
 		// is_real : snake case.. python
 		// isReal : camel case.. java
 		boolean isReal = true;
