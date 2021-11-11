@@ -3,37 +3,37 @@ package loop_ex;
 public class Ex02 {
 
 	public static void main(String[] args) {
-		// do-while ¹®: Á¶°ÇÀÌ °ÅÁşÀÌ¾îµµ ÇÑ¹øÀº ¼öÇàÇÑ´Ù.
-		int i = 0; // 0 ~ 2 : 3¹ø
+		// do-while ë¬¸: ì¡°ê±´ì´ ê±°ì§“ì´ì–´ë„ í•œë²ˆì€ ìˆ˜í–‰í•œë‹¤.
+		int i = 0; // 0 ~ 2 : 3ë²ˆ
 		do {
-			System.out.println("¾È³ç " + i);
+			System.out.println("ì•ˆë…• " + i);
 			i++;
 		} while (i < -50);
 		
-		// 0 ~ 4: 5¹ø
+		// 0 ~ 4: 5ë²ˆ
 		i = 0;
 		while (i < 5) {
-			System.out.println("¿ÍÀÏ¹®" + i);
+			System.out.println("ì™€ì¼ë¬¸" + i);
 			i++;
 		}
 		
-		// for (ÃÊ±â½Ä; Á¶°Ç; Áõ°¨½Ä) { }
-		// 0 ~ 4: 5¹ø
+		// for (ì´ˆê¸°ì‹; ì¡°ê±´; ì¦ê°ì‹) { }
+		// 0 ~ 4: 5ë²ˆ
 		for (int j = 0; j < 5; j++) {
-			System.out.println("for¹® " + j);
+			System.out.println("forë¬¸ " + j);
 		}
 		
-		// 1 ~ 5: 5¹ø
+		// 1 ~ 5: 5ë²ˆ
 		for (int j = 1; j <= 5 ; j++) {
-			System.out.println("µş±â " + j);
+			System.out.println("ë”¸ê¸° " + j);
 		}
 		
-		// 5 ~ 1: 5¹ø
+		// 5 ~ 1: 5ë²ˆ
 		for (int j = 5; j >= 1; j--) {
-			System.out.println("¸ğ´ÏÅÍ " + j);
+			System.out.println("ëª¨ë‹ˆí„° " + j);
 		}
 		
-		// 1+2+3+...+10 ÇÕ°è
+		// 1+2+3+...+10 í•©ê³„
 		int sum = 0;
 		for(int j = 1; j <= 10 ; j++) {
 			sum += j;
