@@ -3,7 +3,7 @@ package variable_quiz;
 public class Quiz01 {
 
 	public static void main(String[] args) {
-//		ÀÌ¸§: ½Åº¸¶÷ / ³ªÀÌ: 25
+//		ì´ë¦„: ì‹ ë³´ëŒ / ë‚˜ì´: 25
 //
 //		3 + 5 = 8
 //		3 - 5 = -2
@@ -12,7 +12,7 @@ public class Quiz01 {
 //		7 X 2 = 14
 //		7 X 3 = 21
 		int age = 25;
-		System.out.println("ÀÌ¸§: ½Åº¸¶÷ / ³ªÀÌ: " + age + "\n");
+		System.out.println("ì´ë¦„: ì‹ ë³´ëŒ / ë‚˜ì´: " + age + "\n");
 		// System.out.println();
 		
 		System.out.println("3 + 5 = " + (3 + 5));
