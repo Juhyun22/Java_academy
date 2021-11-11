@@ -3,7 +3,7 @@ package variable_quiz;
 public class Quiz03 {
 
 	public static void main(String[] args) {
-//		1. Æò±Õ ±¸ÇÏ±â
+//		1. í‰ê·  êµ¬í•˜ê¸°
 		int korean = 93;
 		int math = 88;
 		int english = 94;
@@ -13,15 +13,15 @@ public class Quiz03 {
 		// = average = double(korean + math + english) / 3;
 		// = average = (korean + math + english) / (double)3;
 		
-		System.out.println("±¹¾î:" + korean + ", ¼öÇĞ:" + math + ", ¿µ¾î:" + english);
-		System.out.println("Æò±Õ: " + Math.round(average * 100) / 100.0);
+		System.out.println("êµ­ì–´:" + korean + ", ìˆ˜í•™:" + math + ", ì˜ì–´:" + english);
+		System.out.println("í‰ê· : " + Math.round(average * 100) / 100.0);
 		System.out.println();
 		
-//		2. È­¾¾ ±¸ÇÏ±â
+//		2. í™”ì”¨ êµ¬í•˜ê¸°
 		int c = 30;
 		double f = 9.0 / 5 * c + 32;
 		
-		System.out.println("¼·¾¾ " + c + "µµ´Â È­¾¾ " + f + "µµ ÀÔ´Ï´Ù.");
+		System.out.println("ì„­ì”¨ " + c + "ë„ëŠ” í™”ì”¨ " + f + "ë„ ì…ë‹ˆë‹¤.");
 		System.out.println();
 	}
 
