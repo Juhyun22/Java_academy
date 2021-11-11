@@ -7,22 +7,22 @@ public class Quiz01 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-////		1. ¹Ýº¹ Ãâ·Â
-//		System.out.print("È½¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+////		1. ë°˜ë³µ ì¶œë ¥
+//		System.out.print("íšŸìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");
 //		int number = scan.nextInt();
 //		
 //		int i = 0;
 //      while (i < count) {
-//			System.out.println("È­ÀÌÆÃ!!!");
+//			System.out.println("í™”ì´íŒ…!!!");
 //			i = i + 1;
 //      }
 //		while (number > 0) {
-//			System.out.println("È­ÀÌÆÃ!!!");
+//			System.out.println("í™”ì´íŒ…!!!");
 //			number--;
 //		}
 		
-////		2. Ä«¿îÆ® ´Ù¿î "¹ß»ç"
-//		System.out.print("Ä«¿îÆ® ´Ù¿î ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+////		2. ì¹´ìš´íŠ¸ ë‹¤ìš´ "ë°œì‚¬"
+//		System.out.print("ì¹´ìš´íŠ¸ ë‹¤ìš´ ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");
 //		int number = scan.nextInt();
 //		
 //		while (number >= 0) {
@@ -30,22 +30,22 @@ public class Quiz01 {
 //			number--;
 //		}
 //		
-//		System.out.println("¹ß»ç");
+//		System.out.println("ë°œì‚¬");
 //		
 		
-////		3. ¹Ýº¹ ÀÔ·Â
+////		3. ë°˜ë³µ ìž…ë ¥
 //		int i = 0;
 //		
 //		while (i < 5) {
-//			System.out.print("¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+//			System.out.print("ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ");
 //			int number = scan.nextInt();
-//			System.out.println("Ãâ·Â : " + number);
+//			System.out.println("ì¶œë ¥ : " + number);
 //			i++;
 //		}
 //		
 	
-//		4. ±¸±¸´Ü
-		//System.out.print("¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+//		4. êµ¬êµ¬ë‹¨
+		//System.out.print("ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");
 		int mul = 3; //scan.nextInt();
 		int number = 1; // 1 ~ 9
 	
